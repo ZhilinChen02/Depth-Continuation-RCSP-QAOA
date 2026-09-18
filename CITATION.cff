@@ -4,6 +4,8 @@ title: "Depth Continuation with Full-Parameter Reoptimization for Full-Space QAO
 type: software
 license: MIT
 version: "1.0.1"
+doi: "10.5281/zenodo.22837675"
+url: "https://doi.org/10.5281/zenodo.22837675"
 date-released: "2026-09-18"
 repository-code: "https://github.com/ZhilinChen02/Depth-Continuation-RCSP-QAOA"
 authors:

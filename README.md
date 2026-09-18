@@ -6,6 +6,7 @@
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](DATA_LICENSE.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22837675.svg)](https://doi.org/10.5281/zenodo.22837675)
 
 We train exact full-space QAOA on a resource-constrained shortest-path (RCSP) problem up to depth p = 120 and compare three training protocols. **WARM** inherits the depth-(p−1) solution and re-optimizes all 2p angles. **FROZEN** trains only the new layer. **RANDOM** is a single randomly initialised joint fit at the target depth.
 
@@ -120,7 +121,11 @@ Full instructions are in [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md): tes
 
 ## Citation
 
-Please cite via [`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button uses it. No DOI has been assigned yet.
+The archived software and frozen experimental records for this study (release v1.0.1) are available on Zenodo:
+
+**DOI:** [10.5281/zenodo.22837675](https://doi.org/10.5281/zenodo.22837675)
+
+This is the DOI of the software and data archive, not of a journal article. Citation metadata are also provided in [`CITATION.cff`](CITATION.cff), which GitHub's "Cite this repository" button uses.
 
 ## License
 
