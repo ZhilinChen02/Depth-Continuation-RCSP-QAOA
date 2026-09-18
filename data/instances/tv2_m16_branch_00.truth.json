@@ -1,0 +1,73 @@
+{
+ "task_id": "tv2_m16_branch_00",
+ "note": "EVALUATION ONLY. Route list written by the original study before training (offline_truth). Not used by training code; tests check it against an independent DFS.",
+ "paths": [
+  {
+   "mask": 24,
+   "cost": 156,
+   "resource": 6,
+   "length": 2
+  },
+  {
+   "mask": 84,
+   "cost": 225,
+   "resource": 9,
+   "length": 3
+  },
+  {
+   "mask": 192,
+   "cost": 119,
+   "resource": 9,
+   "length": 2
+  },
+  {
+   "mask": 8785,
+   "cost": 275,
+   "resource": 25,
+   "length": 5
+  },
+  {
+   "mask": 8802,
+   "cost": 264,
+   "resource": 26,
+   "length": 5
+  },
+  {
+   "mask": 11074,
+   "cost": 336,
+   "resource": 29,
+   "length": 6
+  },
+  {
+   "mask": 14930,
+   "cost": 449,
+   "resource": 29,
+   "length": 7
+  },
+  {
+   "mask": 9792,
+   "cost": 204,
+   "resource": 21,
+   "length": 4
+  },
+  {
+   "mask": 33344,
+   "cost": 213,
+   "resource": 10,
+   "length": 3
+  },
+  {
+   "mask": 16704,
+   "cost": 152,
+   "resource": 16,
+   "length": 3
+  },
+  {
+   "mask": 20560,
+   "cost": 265,
+   "resource": 16,
+   "length": 4
+  }
+ ],
+ "source_sha256": "9ea5d6dc40afde07cd0ec578c6f5dd08e64971bef958a52dc5ca71c0a7ad988f"
+}

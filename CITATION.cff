@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Depth Continuation with Full-Parameter Reoptimization for Full-Space QAOA: A Controlled RCSP Study (code and data)"
+type: software
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0.0"
+authors:
+  - family-names: "Chen"
+    given-names: "Zhilin"
+    affiliation: "University of Copenhagen"
+    email: "zwq152@alumni.ku.dk"

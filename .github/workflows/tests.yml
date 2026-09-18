@@ -1,0 +1,38 @@
+name: tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+    env:
+      OMP_NUM_THREADS: "1"
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: python -m pip install -e ".[plot,test]"
+      - name: Unit and consistency tests
+        run: pytest -q
+      - name: Verify frozen records
+        run: python scripts/verify_records.py
+      - name: Regenerate tables and numbers and compare with reference_outputs
+        # Tables and all numbers must be byte-identical; only the platform-sensitive finite-difference
+        # gradient diagnostic (GradErr) is checked against an absolute bound (see scripts/check_paper_assets.py).
+        run: |
+          python scripts/make_paper_assets.py --out-dir reproduced_assets
+          python scripts/check_paper_assets.py --shipped reference_outputs --regenerated reproduced_assets
+      - name: Regenerate README figures and check the quoted numbers
+        run: |
+          cp docs/assets/readme_numbers.json /tmp/readme_numbers.json
+          python scripts/make_readme_assets.py
+          diff /tmp/readme_numbers.json docs/assets/readme_numbers.json
+      - name: Replay p=120 endpoint states
+        run: python scripts/replay_states.py --scope endpoints

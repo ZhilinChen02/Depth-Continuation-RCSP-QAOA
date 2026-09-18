@@ -1,0 +1,56 @@
+{
+ "warm_mean_p16": 0.5388,
+ "warm_mean_p32": 4.4221,
+ "warm_mean_p64": 13.6748,
+ "warm_mean_p100": 23.542,
+ "warm_mean_p120": 27.9721,
+ "warm_p120_mean": 27.9721,
+ "warm_p120_min": 11.34,
+ "warm_p120_max": 53.64,
+ "warm_p120_median": 21.1,
+ "random_p120_mean": 10.1411,
+ "warm_layer_work_mean": 2327889.0,
+ "random_layer_work_mean": 57600.0,
+ "work_ratio": 40.41,
+ "popt_ratio": 2.76,
+ "warm_beats_frozen": 6,
+ "warm_beats_random": 6,
+ "p120": {
+  "Multi-branch / X": {
+   "FROZEN_LAYERWISE": 0.000421,
+   "RANDOM_JOINT": 6.648407,
+   "WARM_JOINT": 21.405951,
+   "WARM_p_feas": 57.54
+  },
+  "Multi-branch / multi-X": {
+   "FROZEN_LAYERWISE": 0.001285,
+   "RANDOM_JOINT": 7.967184,
+   "WARM_JOINT": 11.343755,
+   "WARM_p_feas": 88.7
+  },
+  "Directed-cycle / X": {
+   "FROZEN_LAYERWISE": 0.003375,
+   "RANDOM_JOINT": 8.064095,
+   "WARM_JOINT": 14.168129,
+   "WARM_p_feas": 91.71
+  },
+  "Directed-cycle / multi-X": {
+   "FROZEN_LAYERWISE": 0.002696,
+   "RANDOM_JOINT": 13.649635,
+   "WARM_JOINT": 46.486101,
+   "WARM_p_feas": 96.44
+  },
+  "Bottleneck / X": {
+   "FROZEN_LAYERWISE": 0.048277,
+   "RANDOM_JOINT": 8.641385,
+   "WARM_JOINT": 20.785228,
+   "WARM_p_feas": 99.33
+  },
+  "Bottleneck / multi-X": {
+   "FROZEN_LAYERWISE": 0.032757,
+   "RANDOM_JOINT": 15.876191,
+   "WARM_JOINT": 53.643222,
+   "WARM_p_feas": 99.92
+  }
+ }
+}

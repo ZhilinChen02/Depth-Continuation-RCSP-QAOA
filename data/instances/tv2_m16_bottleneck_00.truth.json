@@ -1,0 +1,127 @@
+{
+ "task_id": "tv2_m16_bottleneck_00",
+ "note": "EVALUATION ONLY. Route list written by the original study before training (offline_truth). Not used by training code; tests check it against an independent DFS.",
+ "paths": [
+  {
+   "mask": 245,
+   "cost": 334,
+   "resource": 29,
+   "length": 6
+  },
+  {
+   "mask": 1203,
+   "cost": 344,
+   "resource": 28,
+   "length": 6
+  },
+  {
+   "mask": 8881,
+   "cost": 352,
+   "resource": 27,
+   "length": 6
+  },
+  {
+   "mask": 12467,
+   "cost": 415,
+   "resource": 32,
+   "length": 7
+  },
+  {
+   "mask": 236,
+   "cost": 274,
+   "resource": 25,
+   "length": 5
+  },
+  {
+   "mask": 1194,
+   "cost": 284,
+   "resource": 24,
+   "length": 5
+  },
+  {
+   "mask": 8872,
+   "cost": 292,
+   "resource": 23,
+   "length": 5
+  },
+  {
+   "mask": 12458,
+   "cost": 355,
+   "resource": 28,
+   "length": 6
+  },
+  {
+   "mask": 16836,
+   "cost": 306,
+   "resource": 22,
+   "length": 5
+  },
+  {
+   "mask": 17794,
+   "cost": 316,
+   "resource": 21,
+   "length": 5
+  },
+  {
+   "mask": 25472,
+   "cost": 324,
+   "resource": 20,
+   "length": 5
+  },
+  {
+   "mask": 29058,
+   "cost": 387,
+   "resource": 25,
+   "length": 6
+  },
+  {
+   "mask": 2260,
+   "cost": 275,
+   "resource": 25,
+   "length": 5
+  },
+  {
+   "mask": 3218,
+   "cost": 285,
+   "resource": 24,
+   "length": 5
+  },
+  {
+   "mask": 10896,
+   "cost": 293,
+   "resource": 23,
+   "length": 5
+  },
+  {
+   "mask": 14482,
+   "cost": 356,
+   "resource": 28,
+   "length": 6
+  },
+  {
+   "mask": 35020,
+   "cost": 302,
+   "resource": 33,
+   "length": 6
+  },
+  {
+   "mask": 35978,
+   "cost": 312,
+   "resource": 32,
+   "length": 6
+  },
+  {
+   "mask": 43656,
+   "cost": 320,
+   "resource": 31,
+   "length": 6
+  },
+  {
+   "mask": 47242,
+   "cost": 383,
+   "resource": 36,
+   "length": 7
+  }
+ ],
+ "source_sha256": "5f17e58240e41845a4b1851b22be95b578ea614597b8b3770c1801ebfbe273b3"
+}
